@@ -31,3 +31,23 @@ Python Requests get() Method
 
 What does 'wb' mean in this code, using Python? 
 > https://stackoverflow.com/questions/2665866/what-does-wb-mean-in-this-code-using-python
+
+### Lesson13 :Text File Structure
+structure of txt
+
+unicode difference
+> http://www.differencebetween.net/technology/difference-between-unicode-and-utf-8/
+> https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/
+
+text expample
+> https://kunststube.net/encoding/
+> https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+
+### Lesson14 :Text Files in Python
+Unix style pathname pattern expansion¶
+> https://docs.python.org/3/library/glob.html
+> https://en.wikipedia.org/wiki/Glob_(programming)
+
+> https://stackoverflow.com/questions/16994552/is-file-object-in-python-an-iterable/16994568#16994568
+> https://stackoverflow.com/questions/8009882/how-to-read-a-large-file-line-by-line/8010133#8010133
+> https://stackoverflow.com/questions/5250744/difference-between-open-and-codecs-open-in-python/22288895#22288895
