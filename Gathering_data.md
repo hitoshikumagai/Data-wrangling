@@ -77,10 +77,10 @@ https://www.tibco.com/blog/2014/01/23/api-data-exchange-xml-vs-json/
 > Reading and Writing JSON to a File in Python
 https://github.com/siznax/wptools/wiki/Usage
 
-> Example of json array
+Example of json array
 > page.data['image'][0]
 
-> Example of json object 
+Example of json object 
 > page.data['infobox']['director']
 
 ###  Lesson18 :Mashup: APIs, Downloading Files Programmatically, and JSON
@@ -89,7 +89,7 @@ https://stackoverflow.com/questions/28056171/how-to-build-and-fill-pandas-datafr
 https://2.python-requests.org/en/latest/user/quickstart/#binary-response-content
 
 
-> The Jupyter Notebook below contains template code that:
+The Jupyter Notebook below contains template code that:
 > - Contains title_list, which is a list of all of the Wikipedia page titles for each movie in the Rotten Tomatoes Top 100 Movies of All Time list. This list is in the same order as the Top 100.
 > - Creates an empty list, df_list, to which dictionaries will be appended. This list of dictionaries will eventually be converted to a pandas DataFrame (this is the most efficient way of building a DataFrame row by row).
 > - Creates an empty folder, bestofrt_posters, to store the downloaded movie poster image files.
