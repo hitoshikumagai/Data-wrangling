@@ -102,5 +102,7 @@ The Jupyter Notebook below contains template code that:
 > - Creates a DataFrame called df by converting df_list using the pd.DataFrame constructor.
 
 ###  Lesson21 :Storing Data
-df = pd.read_csv('gathered_assessed_cleaned.csv')
-df.to_csv('bestofrt_master.csv', index=False)
+df = pd.read_csv('gathered_assessed_cleaned.csv')<br>
+df.to_csv('bestofrt_master.csv', **index=False**)<br>
+> Often specifying index=False is necessary too if you don't want the DataFrame index showing up as a column in your stored dataset.
+
