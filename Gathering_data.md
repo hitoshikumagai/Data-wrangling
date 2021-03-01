@@ -66,3 +66,38 @@ How to use API in Python ?
 Let's try !
 > https://en.wikipedia.org/wiki/Mahatma_Gandhi)
 > https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial
+
+### Lesson16 :JSON File Structure
+
+> JSON arrays → Python lists. JSON objects → Python dictionaries.
+https://www.tibco.com/blog/2014/01/23/api-data-exchange-xml-vs-json/
+
+###  Lesson17 :JSON Files in Python
+
+> Reading and Writing JSON to a File in Python
+https://github.com/siznax/wptools/wiki/Usage
+
+> Example of json array
+> page.data['image'][0]
+
+> Example of json object 
+> page.data['infobox']['director']
+
+###  Lesson18 :Mashup: APIs, Downloading Files Programmatically, and JSON
+https://pillow.readthedocs.io/en/stable/
+https://stackoverflow.com/questions/28056171/how-to-build-and-fill-pandas-dataframe-from-for-loop/28058264#28058264
+https://2.python-requests.org/en/latest/user/quickstart/#binary-response-content
+
+
+> The Jupyter Notebook below contains template code that:
+> - Contains title_list, which is a list of all of the Wikipedia page titles for each movie in the Rotten Tomatoes Top 100 Movies of All Time list. This list is in the same order as the Top 100.
+> - Creates an empty list, df_list, to which dictionaries will be appended. This list of dictionaries will eventually be converted to a pandas DataFrame (this is the most efficient way of building a DataFrame row by row).
+> - Creates an empty folder, bestofrt_posters, to store the downloaded movie poster image files.
+> - Creates an empty dictionary, image_errors, to fill to keep track of movie poster image URLs that don't work.
+> - Loops through the Wikipedia page titles in title_list and:
+> >  - Stores the ranking of that movie in the Top 100 list based on its position in title_list. Ranking is needed so we can join this DataFrame with the master DataFrame later. We can't join on title because the titles of the Rotten Tomatoes pages and the Wikipedia pages differ.
+> > - Uses try and except blocks to attempt to query MediaWiki for a movie poster image URL and to attempt to download that image. If the attempt fails and an error is encountered, the offending movie is documented in image_errors.
+> >  - Appends a dictionary with ranking, title, and poster_url as the keys and the extracted values for each as the values to df_list.
+> - Inspects the images that caused errors and downloads the correct image individually (either via another URL in the image attribute's list or a URL from Google Images)
+> - Creates a DataFrame called df by converting df_list using the pd.DataFrame constructor.
+    
