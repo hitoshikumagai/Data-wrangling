@@ -100,4 +100,7 @@ The Jupyter Notebook below contains template code that:
 > >  - Appends a dictionary with ranking, title, and poster_url as the keys and the extracted values for each as the values to df_list.
 > - Inspects the images that caused errors and downloads the correct image individually (either via another URL in the image attribute's list or a URL from Google Images)
 > - Creates a DataFrame called df by converting df_list using the pd.DataFrame constructor.
-    
+
+###  Lesson21 :Storing Data
+df = pd.read_csv('gathered_assessed_cleaned.csv')
+df.to_csv('bestofrt_master.csv', index=False)
