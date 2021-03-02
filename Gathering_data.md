@@ -48,6 +48,7 @@ Text expample
 Unix style pathname pattern expansion¶
 > https://docs.python.org/3/library/glob.html<br>
 > https://en.wikipedia.org/wiki/Glob_(programming)<br>
+
 Text 
 > https://stackoverflow.com/questions/16994552/is-file-object-in-python-an-iterable/16994568#16994568<br>
 > https://stackoverflow.com/questions/8009882/how-to-read-a-large-file-line-by-line/8010133#8010133<br>
