@@ -28,54 +28,55 @@ Fundamental course
 
 Python Requests get() Method
 > https://2.python-requests.org/en/latest/user/quickstart/#binary-response-content<br>
-> https://www.w3schools.com/python/ref_requests_get.asp 
+> https://www.w3schools.com/python/ref_requests_get.asp <br>
 
 What does 'wb' mean in this code, using Python? 
-> https://stackoverflow.com/questions/2665866/what-does-wb-mean-in-this-code-using-python
+> https://stackoverflow.com/questions/2665866/what-does-wb-mean-in-this-code-using-python<br>
 
 ### Lesson13 :Text File Structure
 Structure of txt
 
 Unicode difference
-> http://www.differencebetween.net/technology/difference-between-unicode-and-utf-8/
-> https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/
+> http://www.differencebetween.net/technology/difference-between-unicode-and-utf-8/<br>
+> https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/<br>
 
 Text expample
-> https://kunststube.net/encoding/
-> https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+> https://kunststube.net/encoding/<br>
+> https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/<br>
 
 ### Lesson14 :Text Files in Python
 Unix style pathname pattern expansion¶
-> https://docs.python.org/3/library/glob.html
-> https://en.wikipedia.org/wiki/Glob_(programming)
+> https://docs.python.org/3/library/glob.html<br>
+> https://en.wikipedia.org/wiki/Glob_(programming)<br>
 Text 
-> https://stackoverflow.com/questions/16994552/is-file-object-in-python-an-iterable/16994568#16994568
-> https://stackoverflow.com/questions/8009882/how-to-read-a-large-file-line-by-line/8010133#8010133
-> https://stackoverflow.com/questions/5250744/difference-between-open-and-codecs-open-in-python/22288895#22288895
+> https://stackoverflow.com/questions/16994552/is-file-object-in-python-an-iterable/16994568#16994568<br>
+> https://stackoverflow.com/questions/8009882/how-to-read-a-large-file-line-by-line/8010133#8010133<br>
+> https://stackoverflow.com/questions/5250744/difference-between-open-and-codecs-open-in-python/22288895#22288895<br>
+
 ### Lesson15 :Source: APIs (Application Programming Interfaces)
 What is API ?
-> https://www.mediawiki.org/wiki/API:Tutorial
+> https://www.mediawiki.org/wiki/API:Tutorial<br>
 
 API list for Python
-> https://www.mediawiki.org/wiki/API:Client_code#Python
-> https://github.com/siznax/wptools
+> https://www.mediawiki.org/wiki/API:Client_code#Python<br>
+> https://github.com/siznax/wptools<br>
 
 How to use API in Python ?
-> https://github.com/siznax/wptools/wiki/Usage#page-usage
+> https://github.com/siznax/wptools/wiki/Usage#page-usage<br>
 
 Let's try !
-> https://en.wikipedia.org/wiki/Mahatma_Gandhi)
-> https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial
+> https://en.wikipedia.org/wiki/Mahatma_Gandhi)<br>
+> https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial<br>
 
 ### Lesson16 :JSON File Structure
 
-> JSON arrays → Python lists. JSON objects → Python dictionaries.
-https://www.tibco.com/blog/2014/01/23/api-data-exchange-xml-vs-json/
+JSON arrays → Python lists. JSON objects → Python dictionaries.<br>
+> https://www.tibco.com/blog/2014/01/23/api-data-exchange-xml-vs-json/
 
 ###  Lesson17 :JSON Files in Python
 
-> Reading and Writing JSON to a File in Python
-https://github.com/siznax/wptools/wiki/Usage
+Reading and Writing JSON to a File in Python<br>
+> https://github.com/siznax/wptools/wiki/Usage
 
 Example of json array
 > page.data['image'][0]
@@ -84,9 +85,9 @@ Example of json object
 > page.data['infobox']['director']
 
 ###  Lesson18 :Mashup: APIs, Downloading Files Programmatically, and JSON
-https://pillow.readthedocs.io/en/stable/
-https://stackoverflow.com/questions/28056171/how-to-build-and-fill-pandas-dataframe-from-for-loop/28058264#28058264
-https://2.python-requests.org/en/latest/user/quickstart/#binary-response-content
+https://pillow.readthedocs.io/en/stable/<br>
+https://stackoverflow.com/questions/28056171/how-to-build-and-fill-pandas-dataframe-from-for-loop/28058264#28058264<br>
+https://2.python-requests.org/en/latest/user/quickstart/#binary-response-content<br>
 
 
 The Jupyter Notebook below contains template code that:
@@ -107,18 +108,19 @@ df.to_csv('bestofrt_master.csv', **index=False**)<br>
 > Often specifying index=False is necessary too if you don't want the DataFrame index showing up as a column in your stored dataset.
 
 ### Lesson22 :Relational Database Structure
-https://www.cac.cornell.edu/education/Training/DataAnalysis/RelationalDatabases.pdf
+Important concept
+> https://www.cac.cornell.edu/education/Training/DataAnalysis/RelationalDatabases.pdf<br>
 
 ### Lesson23 :Relational Databases in Python
 
-https://www.reddit.com/r/Python/comments/1tqjt4/why_do_you_use_pandas_instead_of_sql/
-https://www.sqlalchemy.org/
+https://www.reddit.com/r/Python/comments/1tqjt4/why_do_you_use_pandas_instead_of_sql/<br>
+https://www.sqlalchemy.org/<br>
 
 ### Lesson24 :Other File Formats
 
-https://pandas.pydata.org/pandas-docs/stable/reference/index.html
-http://faculty.econ.ucdavis.edu/faculty/cameron/stata/stataintro.html
-https://whatis.techtarget.com/
-https://www.neonscience.org/resources/learning-hub/tutorials
-https://stackoverflow.com/questions/7501947/understanding-pickling-in-python
-https://www.lifewire.com/what-is-an-xlsx-file-2622540
+https://pandas.pydata.org/pandas-docs/stable/reference/index.html<br>
+http://faculty.econ.ucdavis.edu/faculty/cameron/stata/stataintro.html<br>
+https://whatis.techtarget.com/<br>
+https://www.neonscience.org/resources/learning-hub/tutorials<br>
+https://stackoverflow.com/questions/7501947/understanding-pickling-in-python<br>
+https://www.lifewire.com/what-is-an-xlsx-file-2622540<br>
