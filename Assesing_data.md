@@ -70,3 +70,27 @@ https://www.damauk.org/RWFilePub.php?&cat=403&dx=2&ob=3&rpn=catviewleafpublic403
 > * .describe (DataFrame and Series)
 > * .value_counts (Series only)
 > * Various methods of indexing and selecting data (.loc and bracket notation with/without boolean indexing, also .iloc)
+ 
+### Lesson21. Assessing: Summary
+Assessing is the second step in the data wrangling process:
+- Gather
+- Assess
+- Clean
+
+You can assess data for:
+- **Quality:** <br>
+  issues with content. Low quality data is also known as dirty data.
+- **Tidiness:** <br>
+  issues with structure that prevent easy analysis. Untidy data is also known as messy data. Tidy data requirements:
+ - Each variable forms a column.
+ - Each observation forms a row.
+ - Each type of observational unit forms a table.
+
+...using two types of assessment:
+- **Visual assessment:**<br>
+scrolling through the data in your preferred software application (Google Sheets, Excel, a text editor, etc.).
+- **Programmatic assessment:**<br> 
+using code to view specific portions and summaries of the data (pandas' head, tail, and info methods, for example).
+
+
+
