@@ -106,3 +106,19 @@ df = pd.read_csv('gathered_assessed_cleaned.csv')<br>
 df.to_csv('bestofrt_master.csv', **index=False**)<br>
 > Often specifying index=False is necessary too if you don't want the DataFrame index showing up as a column in your stored dataset.
 
+### Lesson22 :Relational Database Structure
+https://www.cac.cornell.edu/education/Training/DataAnalysis/RelationalDatabases.pdf
+
+### Lesson23 :Relational Databases in Python
+
+https://www.reddit.com/r/Python/comments/1tqjt4/why_do_you_use_pandas_instead_of_sql/
+https://www.sqlalchemy.org/
+
+### Lesson24 :Other File Formats
+
+https://pandas.pydata.org/pandas-docs/stable/reference/index.html
+http://faculty.econ.ucdavis.edu/faculty/cameron/stata/stataintro.html
+https://whatis.techtarget.com/
+https://www.neonscience.org/resources/learning-hub/tutorials
+https://stackoverflow.com/questions/7501947/understanding-pickling-in-python
+https://www.lifewire.com/what-is-an-xlsx-file-2622540
