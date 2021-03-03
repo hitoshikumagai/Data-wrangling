@@ -36,12 +36,17 @@ In this lesson, you are going to assess both dirty and messy data. <br>
 > - Answer the following quizzes, distinguishing between low quality and untidy data, to set yourself up for success in this lesson.
 
 > Note: the data pictured in the animation is a simplified version of the actual dataset used in this lesson.
-******
 
+******
 ### Lesson9. Quality: Visual Assessment1
 Is it a good idea to use an integer column for storing US ZIP codes in a database?
 > https://stackoverflow.com/questions/893454/is-it-a-good-idea-to-use-an-integer-column-for-storing-us-zip-codes-in-a-databas
 
+
+### Lesson11. Quality: Visual Assessment 2
+** Important lesson**
+
+******
 ### Lesson12. Data Quality Dimensions1
 Data quality dimensions help guide your thought process while assessing and also cleaning. The four main data quality dimensions are:
 - Completeness: do we have all of the records that we should? Do we have missing records or not? Are there specific rows, columns, or cells missing?
