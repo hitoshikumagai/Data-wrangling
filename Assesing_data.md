@@ -12,7 +12,7 @@ In this lesson, you'll learn to identify and categorize common data quality and 
 This lesson is the shortest and most "hands-off" code-wise of all four in the course <br>
 because of the passive nature of assessing relative to gathering and cleaning. <br>
 We have tried to include quizzes wherever possible.<br>
-<details>
+</details>
    
 This lesson will be structured as follows:
 <details>
