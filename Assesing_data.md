@@ -22,7 +22,7 @@ This lesson will be structured as follows:
 > - Tidiness issues
 > You'll learn about data quality dimensions and categorize each of the data quality issues 
 > identified above into its appropriate dimension
-
+******
 
 ### Lesson5. Unclean Data: Dirty vs. Messy
 
@@ -36,6 +36,7 @@ In this lesson, you are going to assess both dirty and messy data. <br>
 > - Answer the following quizzes, distinguishing between low quality and untidy data, to set yourself up for success in this lesson.
 
 > Note: the data pictured in the animation is a simplified version of the actual dataset used in this lesson.
+******
 
 ### Lesson9. Quality: Visual Assessment1
 Is it a good idea to use an integer column for storing US ZIP codes in a database?
@@ -53,14 +54,14 @@ Data quality dimensions help guide your thought process while assessing and also
 - Consistency, i.e., a standard format, in columns that represent the same data across tables and/or within tables is desired.
 
 Regarding the other data quality research mentioned in the video, the additional dimensions are super specific cases of these four dimensions listed above. Example: currency, defined as follows: the degree to which data is current with the world that it models. Currency can measure how up-to-date data is. Currency is a specific case of accuracy data in the sense that out-of-date data is (usually) valid but wrong. In other words, our definition of accuracy can include currency.
-
+******
 ### Lesson13. Data Quality Dimensions2
 https://searchdatamanagement.techtarget.com/definition/data-quality<br>
 https://www.youtube.com/watch?v=dPsx8_Fcr-U<br>
 https://www.informit.com/articles/article.aspx?p=399325&seqNum=3<br>
 https://www.damauk.org/RWFilePub.php?&cat=403&dx=2&ob=3&rpn=catviewleafpublic403&id=106193<br>
 
-### Lesson14. Data Quality Dimensions1
+### Lesson14. Programmatic Assessment
 **Assess**
 > These are the programmatic assessment methods in pandas that you will probably use most often:
 > * .head (DataFrame and Series)
@@ -70,7 +71,38 @@ https://www.damauk.org/RWFilePub.php?&cat=403&dx=2&ob=3&rpn=catviewleafpublic403
 > * .describe (DataFrame and Series)
 > * .value_counts (Series only)
 > * Various methods of indexing and selecting data (.loc and bracket notation with/without boolean indexing, also .iloc)
- 
+******
+### Lesson15 :Quality: Programmatic Assessment 1
+**Important lesson**
+### Lesson16 :Quality: Programmatic Assessment 2
+What does null mean ?
+>
+### Lesson17 :Tidiness: Visual Assessment
+**Important link **
+> https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
+
+### Lesson18 :Tidiness: Programmatic Assessment
+
+******
+### Lesson19 :How Data Gets Dirty and Messy
+**Sources of Dirty Data**
+> Dirty data = low quality data = content issues
+
+There are lots of sources of dirty data. Basically, anytime humans are involved, there's going to be dirty data.<br> 
+There are lots of ways in which we touch data we work with.<br>
+> We're going to have user entry errors.
+> - In some situations, we won't have any data coding standards, or where we do have standards they'll be poorly applied, causing problems in the resulting data
+> We might have to integrate data where different schemas have been used for the same type of item.<br>
+> - We'll have legacy data systems, where data wasn't coded when disc and memory constraints were much more restrictive than they are now. Over time systems evolve. Needs change, and data changes.
+> - Some of our data won't have the unique identifiers it should.
+> - Other data will be lost in transformation from one format to another.
+> - And then, of course, there's always programmer error.
+> - And finally, data might have been corrupted in transmission or storage by cosmic rays or other physical phenomenon. So hey, one that's not our fault.
+
+Sources of Messy Data
+
+Messy data = untidy data = structural issues
+
 ### Lesson21. Assessing: Summary
 Assessing is the second step in the data wrangling process:
 - Gather
@@ -91,6 +123,3 @@ You can assess data for:
 scrolling through the data in your preferred software application (Google Sheets, Excel, a text editor, etc.).
 - **Programmatic assessment:**<br> 
 using code to view specific portions and summaries of the data (pandas' head, tail, and info methods, for example).
-
-
-
