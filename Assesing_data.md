@@ -4,16 +4,18 @@ Data wrangling process:
 > - Gather
 > - Assess (this lesson)
 > - Clean
-
-```Assessing your data is the second step in data wrangling. When assessing, you're like a detective at work, <br>
+<details>
+Assessing your data is the second step in data wrangling. When assessing, you're like a detective at work, <br>
 inspecting your dataset for two things: data quality issues (i.e. content issues) and lack of tidiness (i.e. structural issues).<br>
 Assessing is the precursor to cleaning. You can't clean something that you don't know exists! <br>
 In this lesson, you'll learn to identify and categorize common data quality and tidiness issues. <br>
 This lesson is the shortest and most "hands-off" code-wise of all four in the course <br>
 because of the passive nature of assessing relative to gathering and cleaning. <br>
-We have tried to include quizzes wherever possible.<br>```
-
+We have tried to include quizzes wherever possible.<br>
+<details>
+   
 This lesson will be structured as follows:
+<details>
 >1. You'll get motivated to assess (and later clean) the dataset for lessons 3 and 4: 
    Phase II clinical trial data that compares the efficacy and safety of a new oral insulin to treat diabetes
 > 2. You'll learn to distinguish between dirty data and messy data
@@ -22,6 +24,7 @@ This lesson will be structured as follows:
 > - Tidiness issues
 > You'll learn about data quality dimensions and categorize each of the data quality issues 
 > identified above into its appropriate dimension
+</details>
 ******
 
 ### Lesson5. Unclean Data: Dirty vs. Messy
@@ -29,12 +32,12 @@ This lesson will be structured as follows:
 There are two types of unclean data:
 > - Dirty data, also known as low quality data. Low quality data has content issues.
 > - Messy data, also known as untidy data. Untidy data has structural issues.
-
+<details>
 In this lesson, you are going to assess both dirty and messy data. <br>
 > - Your job right now is to start to distinguish between those two now, <br>
 > - even though quality and tidiness (the latter, especially) may not be 100% solidified in your mind yet.
 > - Answer the following quizzes, distinguishing between low quality and untidy data, to set yourself up for success in this lesson.
-
+</details>
 > Note: the data pictured in the animation is a simplified version of the actual dataset used in this lesson.
 
 ******
@@ -49,6 +52,7 @@ Is it a good idea to use an integer column for storing US ZIP codes in a databas
 ******
 ### Lesson12. Data Quality Dimensions1
 Data quality dimensions help guide your thought process while assessing and also cleaning. The four main data quality dimensions are:
+<details>
 - Completeness: do we have all of the records that we should? Do we have missing records or not? Are there specific rows, columns, or cells missing?
 - Validity: we have the records, but they're not valid, i.e., they don't conform to a defined schema. 
   A schema is a defined set of rules for data. These rules can be real-world constraints (e.g. negative height is impossible) 
@@ -57,7 +61,7 @@ Data quality dimensions help guide your thought process while assessing and also
   Example: a patient's weight that is 5 lbs too heavy because the scale was faulty.
 - Consistency: inconsistent data is both valid and accurate, but there are multiple correct ways of referring to the same thing. <br>
 - Consistency, i.e., a standard format, in columns that represent the same data across tables and/or within tables is desired.
-
+</details>
 Regarding the other data quality research mentioned in the video, the additional dimensions are super specific cases of these four dimensions listed above. Example: currency, defined as follows: the degree to which data is current with the world that it models. Currency can measure how up-to-date data is. Currency is a specific case of accuracy data in the sense that out-of-date data is (usually) valid but wrong. In other words, our definition of accuracy can include currency.
 ******
 ### Lesson13. Data Quality Dimensions2
@@ -95,6 +99,7 @@ What does null mean ?
 
 There are lots of sources of dirty data. Basically, anytime humans are involved, there's going to be dirty data.<br> 
 There are lots of ways in which we touch data we work with.<br>
+<details>
 > We're going to have user entry errors.
 > - In some situations, we won't have any data coding standards, or where we do have standards they'll be poorly applied, causing problems in the resulting data
 > We might have to integrate data where different schemas have been used for the same type of item.<br>
@@ -103,7 +108,7 @@ There are lots of ways in which we touch data we work with.<br>
 > - Other data will be lost in transformation from one format to another.
 > - And then, of course, there's always programmer error.
 > - And finally, data might have been corrupted in transmission or storage by cosmic rays or other physical phenomenon. So hey, one that's not our fault.
-
+<details>
 Sources of Messy Data
 
 Messy data = untidy data = structural issues
