@@ -23,8 +23,8 @@ This lesson will be structured as follows:
     - Tidiness issues
    You'll learn about data quality dimensions and categorize each of the data quality issues identified above into its appropriate dimension
 </details>
-******
 
+******
 ### Lesson5. Unclean Data: Dirty vs. Messy
 
 There are two types of unclean data:
