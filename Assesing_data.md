@@ -94,18 +94,15 @@ What does null mean ?
 
 There are lots of sources of dirty data. Basically, anytime humans are involved, there's going to be dirty data.<br> 
 There are lots of ways in which we touch data we work with.<br>
-<details>
-> We're going to have user entry errors.
-> - In some situations, we won't have any data coding standards, or where we do have standards they'll be poorly applied, causing problems in the resulting data
-> We might have to integrate data where different schemas have been used for the same type of item.<br>
-> - We'll have legacy data systems, where data wasn't coded when disc and memory constraints were much more restrictive than they are now. Over time systems evolve. Needs change, and data changes.
-> - Some of our data won't have the unique identifiers it should.
-> - Other data will be lost in transformation from one format to another.
-> - And then, of course, there's always programmer error.
-> - And finally, data might have been corrupted in transmission or storage by cosmic rays or other physical phenomenon. So hey, one that's not our fault.
-<details>
-Sources of Messy Data
+We're going to have user entry errors.
+   - In some situations, we won't have any data coding standards, or where we do have standards they'll be poorly applied, causing problems in the resulting dataWe might have to integrate data where different schemas have been used for the same type of item.<br>
+   - We'll have legacy data systems, where data wasn't coded when disc and memory constraints were much more restrictive than they are now. Over time systems evolve. Needs change, and data changes.
+   - Some of our data won't have the unique identifiers it should.
+   - Other data will be lost in transformation from one format to another.
+   - And then, of course, there's always programmer error.
+   - And finally, data might have been corrupted in transmission or storage by cosmic rays or other physical phenomenon. So hey, one that's not our fault.
 
+Sources of Messy Data
 Messy data = untidy data = structural issues
 
 ### Lesson21. Assessing: Summary
