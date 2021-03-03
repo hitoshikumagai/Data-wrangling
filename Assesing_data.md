@@ -16,14 +16,12 @@ We have tried to include quizzes wherever possible.<br>
    
 This lesson will be structured as follows:
 <details>
-   >1. You'll get motivated to assess (and later clean) the dataset for lessons 3 and 4: 
-   Phase II clinical trial data that compares the efficacy and safety of a new oral insulin to treat diabetes
-   > 2. You'll learn to distinguish between dirty data and messy data
-   > 3. You'll assess the data visually and programmatically to identify:
-   > > - Data quality issues
-   > > - Tidiness issues
-   > You'll learn about data quality dimensions and categorize each of the data quality issues 
-   > identified above into its appropriate dimension
+   1. You'll get motivated to assess (and later clean) the dataset for lessons 3 and 4: Phase II clinical trial data that compares the efficacy and safety of a new oral insulin to treat diabetes<br>
+   2. You'll learn to distinguish between dirty data and messy data
+   3. You'll assess the data visually and programmatically to identify:
+    - Data quality issues
+    - Tidiness issues
+   You'll learn about data quality dimensions and categorize each of the data quality issues identified above into its appropriate dimension
 </details>
 ******
 
