@@ -28,10 +28,11 @@ This lesson will be structured as follows:
 ### Lesson5. Unclean Data: Dirty vs. Messy
 
 There are two types of unclean data:
-> - Dirty data, also known as low quality data. Low quality data has content issues.
-> - Messy data, also known as untidy data. Untidy data has structural issues.
+- Dirty data, also known as low quality data. Low quality data has content issues.
+- Messy data, also known as untidy data. Untidy data has structural issues.
+
+In this lesson, you are going to assess both dirty and messy data. <br>
 <details>
-   In this lesson, you are going to assess both dirty and messy data. <br>
    - Your job right now is to start to distinguish between those two now, <br>
    - even though quality and tidiness (the latter, especially) may not be 100% solidified in your mind yet.
    - Answer the following quizzes, distinguishing between low quality and untidy data, to set yourself up for success in this lesson.
