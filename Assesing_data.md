@@ -5,13 +5,13 @@ Data wrangling process:
 > - Assess (this lesson)
 > - Clean
 
-Assessing your data is the second step in data wrangling. When assessing, you're like a detective at work, <br>
+```Assessing your data is the second step in data wrangling. When assessing, you're like a detective at work, <br>
 inspecting your dataset for two things: data quality issues (i.e. content issues) and lack of tidiness (i.e. structural issues).<br>
 Assessing is the precursor to cleaning. You can't clean something that you don't know exists! <br>
 In this lesson, you'll learn to identify and categorize common data quality and tidiness issues. <br>
 This lesson is the shortest and most "hands-off" code-wise of all four in the course <br>
 because of the passive nature of assessing relative to gathering and cleaning. <br>
-We have tried to include quizzes wherever possible.<br>
+We have tried to include quizzes wherever possible.<br>```
 
 This lesson will be structured as follows:
 >1. You'll get motivated to assess (and later clean) the dataset for lessons 3 and 4: 
