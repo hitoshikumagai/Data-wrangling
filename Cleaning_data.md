@@ -20,6 +20,13 @@ inspecting the first five records of the (hopefully) clean zip code column.
 https://stackoverflow.com/questions/27673231/why-should-i-make-a-copy-of-a-data-frame-in-pandas
 
 *****************************
+### Lesson8. Address Missing Data First
+**Imputing** means filling in missing data values with other values, using some appropriate method. 
+Here is more information on the topic of imputation: Wikipedia: Imputation
+https://en.wikipedia.org/wiki/Imputation_(statistics)
+
+
+*****************************
 ### Lesson19. The Cleaning Summary
 Clean: Summary Cleaning is the third step in the data wrangling process:
 - Gather
