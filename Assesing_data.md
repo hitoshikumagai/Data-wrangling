@@ -57,8 +57,7 @@ Data quality dimensions help guide your thought process while assessing and also
 - **Consistency**: inconsistent data is both valid and accurate, but there are multiple correct ways of referring to the same thing. <br>
    Consistency, i.e., a standard format, in columns that represent the same data across tables and/or within tables is desired.
 > Regarding the other data quality research mentioned in the video, the additional dimensions are super specific cases of these four dimensions listed above. <br>
-> Example: currency, defined as follows: the degree to which data is current with the world that it models. Currency can measure how up-to-date data is. <br>
-> Currency is > a specific case of accuracy data in the sense that out-of-date data is (usually) valid but wrong. In other words, our definition of accuracy can include currency.<br>
+> Example: currency, defined as follows: the degree to which data is current with the world that it models. Currency can measure how up-to-date data is.Currency is a specific case of accuracy data in the sense that out-of-date data is (usually) valid but wrong. In other words, our definition of accuracy can include currency.<br>
 ******
 ### Lesson13. Data Quality Dimensions2<br>
 https://searchdatamanagement.techtarget.com/definition/data-quality<br><br>
